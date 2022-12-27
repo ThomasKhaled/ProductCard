@@ -166,6 +166,7 @@ form {
     display: flex;
     justify-content: center;
     position: relative;
+    justify-self: center;
 }
 
 .cart-img {
@@ -186,4 +187,10 @@ form {
     height: 60px;
     color: var(--White);
     font-size: var(--Fontsize20);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: rgb(75, 139, 75);
 }
